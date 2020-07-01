@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/*===================================
+
+
+Custom Styles
+
+
+=====================================*/
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+  
+    line-height: 1.5em;
+}
+
+
+
+/*----------- Header Part--------------------*/
+header{
+    background-color: #F86338;
+}
+
+.list-items{
+    display: flex;
+    padding: 25px;
+    margin-left: 5%;
+
+}
+.list-items a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+   
+
+/*=================  Main Part  ==================*/
+
+main{
+    background-color: #D4CEA7;
+}
+
+.container{
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+  
+    
+    
+}
+
+li{
+    padding: 10px;
+    font-weight: 600;
+}
+.col{
+    width: 340px;
+    height: 600px;
+    background-color: #005978;
+    justify-content: space-around;
+    box-shadow: 8px 5px 8px 5px #0009;
+    margin-top: 8%;
+    margin-left: 23%;
+    
+   
+}
+.col-1{
+    list-style-type: decimal;
+}
+.li-1{
+    list-style-type: decimal;
+}
+.ol-items{
+    padding: 50px;
+  
+    font-size: 22px;
+    color: #D4CEA7;
+}
+
+.li-2{
+    list-style-type: disc;
+}
+
+/*============= Box-2=================*/
+
+.ol{
+    list-style-type: decimal;
+    padding-left: 15px;
+}
+.ul{
+    list-style-type: square;
+    padding-left: 10px;
+}
+
+/*==================== Box-3=====================*/
+.col-3 i{
+    color: black;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+
+/*=================== Article Part  =========================*/
+
+.article-1{
+    margin-left: 8%;
+    width: 85%;
+   
+
+}
+
+.heading{
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 20px;
+    color: #252C22;
+    font-weight: 700;
+}
+.para{
+    padding-left: 40px;
+    color: #66685C;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*================Footer=====================*/
+
+footer{
+    background-color: #252C22;
+    padding: 15px;
+}
